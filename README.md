@@ -90,7 +90,7 @@ Usage
         $dqlString = '
             SELECT user
             FROM FooBundle:User user
-            WHERE LEVENSHTEIN(user.firstname,:searchString) <= :tolerance)
+            WHERE LEVENSHTEIN(user.firstname,:searchString) <= :tolerance
         ';
 
         $query = $this->_em->createQuery($dqlString)
