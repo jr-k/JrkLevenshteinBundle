@@ -2,7 +2,7 @@
     "name": "jrk/levenshtein-bundle",
     "type": "symfony-bundle",
     "description": "Levenshtein function bundle for symfony2 and doctrine",
-    "keywords": ["jrk","levenshtein","mysql","doctrine","search","function","extend","soundex"],
+    "keywords": ["levenshtein","doctrine","search","soundex"],
     "homepage": "http://github.com/jreziga/JrkLevenshteinBundle",
     "license": "GNU GPL v2",
     "authors": [
