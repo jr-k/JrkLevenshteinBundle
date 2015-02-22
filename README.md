@@ -46,10 +46,12 @@ public function registerBundles()
 # app/config/config.yml
 doctrine:
     orm:
-        dql:
-            numeric_functions:
-                levenshtein: Jrk\LevenshteinBundle\ORM\Doctrine\DQL\LevenshteinFunction
-                levenshtein_ratio: Jrk\LevenshteinBundle\ORM\Doctrine\DQL\LevenshteinRatioFunction
+        entity_managers:
+            default:
+                dql:
+                    numeric_functions:
+                        levenshtein: Jrk\LevenshteinBundle\ORM\Doctrine\DQL\LevenshteinFunction
+                        levenshtein_ratio: Jrk\LevenshteinBundle\ORM\Doctrine\DQL\LevenshteinRatioFunction
 ```
 
 - Console usage 
