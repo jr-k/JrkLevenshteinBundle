@@ -3,4 +3,4 @@ parameters:
 services:
     jrk_levenshtein.leven_manager:
         class: Jrk\LevenshteinBundle\Manager\LevenshteinManager
-        arguments: [@doctrine.orm.entity_manager]
+        arguments: ["@doctrine.orm.entity_manager"]
