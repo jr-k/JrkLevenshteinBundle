@@ -20,10 +20,5 @@
     "autoload": {
         "psr-0": { "Jrk\\LevenshteinBundle": "" }
     },
-    "target-dir": "Jrk/LevenshteinBundle",
-	"extra": {
-        "branch-alias": {
-             "dev-master": "1.0-dev"
-        }
-    }
+    "target-dir": "Jrk/LevenshteinBundle"
 }
