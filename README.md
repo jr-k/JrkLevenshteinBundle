@@ -78,6 +78,12 @@ doctrine:
 php app/console jrk:levenshtein:install
 ```
 
+That console line will install 2 functions in your database. You can inspect these functions in your mysql database by typing
+
+``` sql
+SHOW FUNCTION STATUS;
+```
+
 Usage
 -----
 
