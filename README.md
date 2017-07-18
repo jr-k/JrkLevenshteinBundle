@@ -54,16 +54,17 @@ doctrine:
                         levenshtein_ratio: Jrk\LevenshteinBundle\ORM\Doctrine\DQL\LevenshteinRatioFunction
 ```
 
-or if you use shortened configuration instead of full configuration
+or if you're using shortened configuration instead of full configuration
 
 ``` yml
+#app/config/config.yml
 doctrine:
     orm:
         # if you have these lines
         auto_generate_proxy_classes: '%kernel.debug%'
         naming_strategy: doctrine.orm.naming_strategy.underscore
         auto_mapping: true
-        # you need to directly put the dql lines like below
+        # you've to directly put the dql lines, see below
         dql:
             numeric_functions:
                 levenshtein: Jrk\LevenshteinBundle\ORM\Doctrine\DQL\LevenshteinFunction
