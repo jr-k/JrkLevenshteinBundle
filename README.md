@@ -78,7 +78,7 @@ doctrine:
 php app/console jrk:levenshtein:install
 ```
 
-That console line will install 2 functions in your database. You can inspect these functions in your mysql database by typing
+That console line will install 2 functions in your database. You can inspect these functions in your mysql database by typing in a phpmyadmin sql prompt or in your favorite mysql client
 
 ``` sql
 SHOW FUNCTION STATUS;
