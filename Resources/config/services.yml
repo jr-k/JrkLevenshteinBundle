@@ -4,3 +4,7 @@ services:
     jrk_levenshtein.leven_manager:
         class: Jrk\LevenshteinBundle\Manager\LevenshteinManager
         arguments: ["@doctrine.orm.entity_manager"]
+
+    Jrk\LevenshteinBundle\Command\LevenshteinInstallCommand:
+        tags:
+            - { name: 'console.command', command: 'jrk:levenshtein:install' }
