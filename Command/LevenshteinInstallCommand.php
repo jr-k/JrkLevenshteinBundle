@@ -31,11 +31,13 @@ use Jrk\LevenshteinBundle\ORM\Doctrine\DQL\LevenshteinFunction;
 
 class LevenshteinInstallCommand extends ContainerAwareCommand
 {
- 
+     /** @var string $defaultName */
+    protected static $defaultName = 'jrk:levenshtein:install'; // Make command lazy load
+
     protected function configure()
     {
         $this
-            ->setName('jrk:levenshtein:install')
+            ->setName(self::$defaultName)
             ->setDescription('Create LEVENSHTEIN() and LEVENSHTEIN_RATIO() functions in mysql.')
             ->setDefinition(array())
             ->setHelp(<<<EOT

@@ -18,7 +18,8 @@
         "doctrine/dbal": "*"
     },
     "autoload": {
-        "psr-0": { "Jrk\\LevenshteinBundle": "" }
-    },
-    "target-dir": "Jrk/LevenshteinBundle"
+        "psr-4": {
+            "Jrk\\LevenshteinBundle\\": ""
+        }
+    }
 }
