@@ -4,7 +4,7 @@
     "description": "Levenshtein function bundle for symfony2 and doctrine",
     "keywords": ["levenshtein","doctrine","search","soundex"],
     "homepage": "http://github.com/jreziga/JrkLevenshteinBundle",
-    "license": "GNU GPL v2",
+    "license": "MIT",
     "authors": [
         {
             "name": "Jessym Reziga",
